@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const uploadImage = require('./uploadCloudinary');
 const User = mongoose.model('user', schema.userSchema);
 const Profile = mongoose.model('profile', schema.profileSchema);
-const connectionString = 'mongodb+srv://hinet0817:wQUayWZcm9IFEuPM@cluster0.hceqevt.mongodb.net/social?retryWrites=true&w=majority';
+const connectionString = process.env.CONNECTION_STRING;
 
 async function getProfile(username) {
     const connector = mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true });

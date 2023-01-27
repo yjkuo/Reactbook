@@ -5,7 +5,7 @@ const uploadImage = require('./uploadCloudinary');
 const mongoose = require('mongoose');
 const Article = mongoose.model('article', schema.articleSchema);
 const Profile = mongoose.model('profile', schema.profileSchema);
-const connectionString = 'mongodb+srv://hinet0817:wQUayWZcm9IFEuPM@cluster0.hceqevt.mongodb.net/social?retryWrites=true&w=majority';
+const connectionString = process.env.CONNECTION_STRING;
 const connector = mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true });
 
 async function createArticle(pid, author, text, img) {

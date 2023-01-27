@@ -10,7 +10,7 @@ const schema = require('./schema');
 const User = mongoose.model('user', schema.userSchema);
 const Profile = mongoose.model('profile', schema.profileSchema);
 const Article = mongoose.model('article', schema.articleSchema);
-const connectionString = 'mongodb+srv://hinet0817:wQUayWZcm9IFEuPM@cluster0.hceqevt.mongodb.net/social?retryWrites=true&w=majority';
+const connectionString = process.env.CONNECTION_STRING;
 
 function genSaltedHash(password, salt) {
     return md5(password + salt);
