@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Validate Backend functionality" errors="0" tests="11" failures="0" time="0.685" timestamp="2022-11-16T20:57:01">
+  <testcase classname="Validate Backend functionality" name="register new user" time="0.15"></testcase>
+  <testcase classname="Validate Backend functionality" name="login user" time="0.046"></testcase>
+  <testcase classname="Validate Backend functionality" name="logout user" time="0.012"></testcase>
+  <testcase classname="Validate Backend functionality" name="login user" time="0.047"></testcase>
+  <testcase classname="Validate Backend functionality" name="should give me zero articles" time="0.047"></testcase>
+  <testcase classname="Validate Backend functionality" name="should add new article with successive article id, return list of articles with new article" time="0.1"></testcase>
+  <testcase classname="Validate Backend functionality" name="should give me one article" time="0.056"></testcase>
+  <testcase classname="Validate Backend functionality" name="should return an article with a specified id" time="0.057"></testcase>
+  <testcase classname="Validate Backend functionality" name="should give me headline" time="0.057"></testcase>
+  <testcase classname="Validate Backend functionality" name="should update headline of loggedIn user" time="0.056"></testcase>
+  <testcase classname="Validate Backend functionality" name="should give me new headline" time="0.056"></testcase>
+</testsuite>
+</testsuites>

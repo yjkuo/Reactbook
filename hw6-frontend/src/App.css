@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.backgd{
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+/* .stream-posts{
+    height: 140vh;
+} */
+
+.stream-followers {
+    height: 120vh;
+}
+
+.scrollable {
+    overflow-y:scroll;
+}
+
+.post-editor,
+.stream-post,
+.comment-list {
+    padding: .75rem;
+    background: #12121b;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-section-main {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 5000px;
+    flex: 0 1 5000px;
+    overflow: hidden
+}
+
+.profile-tabs {
+    padding: .75rem 1.5rem 0;
+    background: #f7f7f9;
+    border-top: 1px solid #eceeef
+}
+
+.profile-tabs .nav-link {
+    font-weight: 400;
+    padding: .75rem 1.5rem
+}
+
+.profile-tabs .nav-link.active,
+.profile-tabs .nav-link.active:focus,
+.profile-tabs .nav-link.active:hover,
+.profile-tabs .nav-link:active,
+.profile-tabs .nav-link:focus {
+    color: #60c84c
+}
+
+.profile-tabs-content .tab-pane {
+    padding: 1.5rem
+}
+
+.post-editor .post-field {
+    width: 100%;
+    height: 120px;
+    resize: vertical;
+    border-radius: .25rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    border-color: #282c34;
+    background-color: #282c34;
+    color: white;
+}
+
+.post-editor .post-field:focus {
+    box-shadow: none;
+    outline: none
+}
+
+.stream-post {
+    position: relative
+}
+
+.sp-author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sp-author .sp-author-avatar {
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    margin-right: 16px
+}
+
+.sp-author .sp-author-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
+}
+
+.sp-author .sp-author-name {
+    font-size: 1rem;
+    margin: .5rem 0
+}
+
+.sp-content {
+    position: relative;
+    border-radius: .25rem;
+    background: #282c34;
+    padding: 1rem;
+    margin-top: 1rem
+}
+
+.sp-content .sp-info {
+    font-size: .875rem;
+    color: #fff;
+    position: absolute;
+    top: -3rem;
+    left: 80px
+}
+
+.sp-content .sp-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem
+}
+
+.sp-content img {
+    width: 20%;
+    height: 20%;
+}
+
+@media (min-width:992px) {
+    .sp-content {
+        margin-left: 80px;
+        margin-top: 0
+    }
+    .sp-content .sp-info {
+        position: static;
+        font-style: italic;
+        margin-bottom: 1rem
+    }
+}
+
+.follower-card {
+  width: 18rem;
+  background:#12121b;
+  justify-content: center;
+}
+
+.card-info {
+    width: 30rem;
+    background:#12121b;
+    justify-content: center;
+}
+
+.card img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.comment {
+    background-color: #282c34;
+    font-size: 1rem;
+    color: white;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .pagination a {
+    padding: 10px;
+    border-radius: 5px;
+  }
+ 
