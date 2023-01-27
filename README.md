@@ -1,13 +1,13 @@
-### Reactbook
+## Reactbook
 
-#### Author
+### Author
 - Daniel Kuo
 
-#### Links
+### Links
 Frontend: [Surge link](https://yk66.surge.sh/)   
 Backend: [Heroku App](https://yk66-final-backend.herokuapp.com)
    
-#### Usage
+### Usage
 testuser:
 
 `{
